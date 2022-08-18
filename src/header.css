@@ -1,0 +1,15 @@
+.header{
+    display: flex;/* flex box push everything in a row*/
+    justify-content: space-between;/*gives space between*/
+    align-items: 'center'; /*aliiign everything on center*/
+    border-bottom: 1px solid #f9f9f9;
+    margin-top: 5px;
+}
+.header__logo{
+    margin-top: 12px;
+    height: 28px;
+    object-fit: contain;/*this will fit our logo in header*/
+}
+.header__icon{
+   padding: -15px;
+}
